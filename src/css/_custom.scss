@@ -1,0 +1,22 @@
+.portlet-dropzone.empty {
+  padding: 0;
+}
+
+.portlet-column {
+  &.yui3-dd-drop-active-valid {
+    .portlet-dropzone {
+    	transition: padding 0.3s linear;
+      outline: 3px dashed #3c56b5;
+      padding: 10px;
+      margin: 10px;
+    	min-height: 100px;
+    }
+    &.yui3-dd-drop-over {
+      .portlet-dropzone {
+      	transition: background 0.3s ease;
+        outline: 3px dashed rgba(0, 128, 0, 0.75);
+        background: rgba(0, 128, 0, 0.30);
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "liferay-dropzone-themelet",
+  "version": "1.0.0",
+  "main": "package.json",
+  "keywords": [
+    "liferay-theme",
+    "liferay-themelet",
+    "liferay",
+    "themelet",
+    "theme"
+  ],
+  "liferayTheme": {
+    "screenshot": "",
+    "themelet": true,
+    "version": "*"
+  }
+}
