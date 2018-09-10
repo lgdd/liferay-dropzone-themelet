@@ -38,5 +38,6 @@ Press space to select it :
 
 Inspired by these discussions brought by [@olafk](https://github.com/olafk):
 
+- https://community.liferay.com/blogs/-/blogs/dragging-portlets-is-easy-but-where-to-drop-them-
 - https://community.liferay.com/blogs/-/blogs/dragging-and-dropping-portlets
 - https://community.liferay.com/blogs/-/blogs/exploring-liferay-7-dragging-and-dropping-portlets
