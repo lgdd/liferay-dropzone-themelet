@@ -6,3 +6,4 @@ liferay-theme.json
 .yo-rc.json
 package-lock.json
 .idea
+.npmrc

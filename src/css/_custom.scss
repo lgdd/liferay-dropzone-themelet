@@ -1,21 +1,38 @@
+$liferay-dropzone-themelet-outline: 3px dashed #3c56b5;
+$liferay-dropzone-themelet-background: rgba(0, 128, 0, 0.30);
+$liferay-dropzone-themelet-background-transition: background 0.3s ease;
+$liferay-dropzone-themelet-outline-transition: padding 0.3s linear;
+
 .portlet-dropzone.empty {
   padding: 0;
+}
+
+.fragments-editor__drop-target.fragments-editor-border-bottom,
+.fragments-editor__drop-target.fragments-editor-border-top {
+  outline: $liferay-dropzone-themelet-outline;
+
+  &.fragments-editor-border-bottom:before {
+    transition: $liferay-dropzone-themelet-background-transition;
+    background: $liferay-dropzone-themelet-background;
+    box-shadow: none;
+  }
 }
 
 .portlet-column {
   &.yui3-dd-drop-active-valid {
     .portlet-dropzone {
-    	transition: padding 0.3s linear;
-      outline: 3px dashed #3c56b5;
+      transition: $liferay-dropzone-themelet-outline-transition;
+      outline: $liferay-dropzone-themelet-outline;
       padding: 10px;
       margin: 10px;
-    	min-height: 100px;
+      min-height: 100px;
     }
+
     &.yui3-dd-drop-over {
       .portlet-dropzone {
-      	transition: background 0.3s ease;
-        outline: 3px dashed rgba(0, 128, 0, 0.75);
-        background: rgba(0, 128, 0, 0.30);
+        transition: $liferay-dropzone-themelet-background-transition;
+        outline: $liferay-dropzone-themelet-outline;
+        background: $liferay-dropzone-themelet-background;
       }
     }
   }
